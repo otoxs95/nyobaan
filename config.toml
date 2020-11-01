@@ -1,0 +1,26 @@
+baseurl = "http://example.com"
+languageCode = "en"
+title = "My Healty Food"
+copyright = "Otoxs2020"
+paginate = 6
+
+
+theme = "minimage"
+
+[params]
+  description = "This is 10.000 good Healty Food for you"
+  author = "Acep Maulana"
+  logo = '/image/logo.png'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.global]]
+	name = "About"
+    url = "/page/about/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
